@@ -73,8 +73,6 @@ class CSRankings {
         this.homepageImage = "./png/house-logo.png";
         this.allowRankingChange = false; /* Can we change the kind of rankings being used? */
         this.areaMap = [
-            { area: "social", title: "Social Comp." },
-            { area: "cscw", title: "Social Comp." },
             { area: "ai", title: "AI" },
             { area: "aaai", title: "AI" },
             { area: "ijcai", title: "AI" },
@@ -179,7 +177,8 @@ class CSRankings {
             { area: "ec", title: "ECom" },
             { area: "wine", title: "ECom" },
             { area: "csed", title: "CSEd" },
-            { area: "sigcse", title: "CSEd" }
+            { area: "sigcse", title: "CSEd" },
+            { area: "cscw", title: "Social Comp." }
         ];
         this.aiAreas = ["ai", "vision", "mlmining", "nlp", "inforet"];
         this.systemsAreas = ["arch", "comm", "sec", "mod", "da", "bed", "hpc", "mobile", "metrics", "ops", "plan", "soft"];
