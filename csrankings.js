@@ -72,7 +72,10 @@ class CSRankings {
         this.acmfellowImage = "./png/acm.png";
         this.homepageImage = "./png/house-logo.png";
         this.allowRankingChange = false; /* Can we change the kind of rankings being used? */
-        this.areaMap = [{ area: "ai", title: "AI" },
+        this.areaMap = [
+            { area: "social", title: "Social Comp." },
+            { area: "cscw", title: "Social Comp." },
+            { area: "ai", title: "AI" },
             { area: "aaai", title: "AI" },
             { area: "ijcai", title: "AI" },
             { area: "vision", title: "Vision" },
